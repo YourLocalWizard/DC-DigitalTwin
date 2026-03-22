@@ -1,0 +1,25 @@
+DC Optimization Engine - 3D Object Export
+
+Object: Wall Base Unit
+
+Scale: 1 unit = 1 meter (Translates origin to bottom center for scaling)
+
+o Wall_Base
+
+Wall (1.0w x 1.0h x 1.0d at Y=0.5)
+
+v -0.50 0.00 0.50
+v 0.50 0.00 0.50
+v 0.50 1.00 0.50
+v -0.50 1.00 0.50
+v -0.50 0.00 -0.50
+v 0.50 0.00 -0.50
+v 0.50 1.00 -0.50
+v -0.50 1.00 -0.50
+
+f 1 2 3 4
+f 6 5 8 7
+f 4 3 7 8
+f 5 6 2 1
+f 2 6 7 3
+f 5 1 4 8
