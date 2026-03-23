@@ -1,0 +1,70 @@
+DC Optimization Engine - 3D Object Export
+
+Object: Time Clock Terminal
+Dimensions: 0.3m wide, 0.4m high, 0.2m deep. Slanted top-half front face.
+Scale: 1 unit = 1 meter
+
+o TimeClock_Base
+
+--- Right Side Vertices ---
+
+v 0.15 0.00 -0.10
+v 0.15 0.00 0.10
+v 0.15 0.20 0.10
+v 0.15 0.40 0.00
+v 0.15 0.40 -0.10
+
+--- Left Side Vertices ---
+
+v -0.15 0.00 -0.10
+v -0.15 0.00 0.10
+v -0.15 0.20 0.10
+v -0.15 0.40 0.00
+v -0.15 0.40 -0.10
+
+Right Face
+
+f 1 2 3
+f 1 3 5
+f 5 3 4
+
+Left Face
+
+f 6 8 7
+f 6 10 8
+f 10 9 8
+
+Bottom Face
+
+f 1 6 7 2
+
+Back Face
+
+f 1 5 10 6
+
+Top Face
+
+f 10 5 4 9
+
+Front Slanted Face
+
+f 4 3 8 9
+
+Front Straight Face
+
+f 3 2 7 8
+
+o TimeClock_Screen
+
+--- Screen Vertices ---
+
+Centered on the slanted face, hovering slightly (0.002m) to prevent Z-fighting.
+
+v 0.10 0.2465 0.0785
+v 0.10 0.3535 0.0255
+v -0.10 0.3535 0.0255
+v -0.10 0.2465 0.0785
+
+Screen Face
+
+f 11 12 13 14
