@@ -1,0 +1,25 @@
+DC Optimization Engine - 3D Object Export
+
+Object: Aisle Area Base Unit
+Dimensions: 1.0m wide, 0.01m high, 1.0m deep (Scales dynamically in X and Z axes)
+Scale: 1 unit = 1 meter
+
+o Aisle_Emerald
+
+Floor Plate (X: -0.50 to 0.50, Y: -0.005 to 0.005, Z: -0.50 to 0.50)
+
+v -0.50 -0.005 0.50
+v 0.50 -0.005 0.50
+v 0.50 0.005 0.50
+v -0.50 0.005 0.50
+v -0.50 -0.005 -0.50
+v 0.50 -0.005 -0.50
+v 0.50 0.005 -0.50
+v -0.50 0.005 -0.50
+
+f 1 2 3 4
+f 6 5 8 7
+f 4 3 7 8
+f 5 6 2 1
+f 2 6 7 3
+f 5 1 4 8
